@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝘿𝙤𝙣𝙖𝙩𝙚 💰", url="https://t.me/PrincexDonateBot"),
+        InlineKeyboardButton(text="𝘿𝙤𝙣𝙖𝙩𝙚 💰", url="https://t.me/StopFollowMe"),
     ],
    [
         InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
@@ -251,7 +251,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", callback_data="tiana_source"), 
+                  [InlineKeyboardButton(text="📄 Source", callback_data="StopFollowMe"), 
                    InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -376,7 +376,7 @@ def tiana_callback_handler(update, context):
                      InlineKeyboardButton(text="➕ 𝘼𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ➕", callback_data="help_back"),
                     ],                           
                     [InlineKeyboardButton(text="𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="tiana_help"),
-                     InlineKeyboardButton(text="𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="tiana_music")],
+                     InlineKeyboardButton(text="𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="ShaSha_Vc_bot")],
                     [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_back"),
                      InlineKeyboardButton(text="𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="tiana_tools")],
                 ]
